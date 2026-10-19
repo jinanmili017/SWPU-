@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="猫咪照片占位图">
+  <rect width="400" height="300" fill="#F4F1EB"/>
+  <g fill="#E0DBD1">
+    <path d="M200 258c-52 0-84-30-84-72 0-30 12-48 12-48h144s12 18 12 48c0 42-32 72-84 72z"/>
+    <circle cx="200" cy="112" r="46"/>
+    <path d="M170 80l-10-42 32 20z"/>
+    <path d="M230 80l10-42-32 20z"/>
+  </g>
+  <path d="M268 232c20 4 30-10 26-26" stroke="#E0DBD1" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <g stroke="#F4F1EB" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M181 108q8 7 16 0"/>
+    <path d="M203 108q8 7 16 0"/>
+  </g>
+</svg>

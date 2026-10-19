@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>校园猫咪档案</title>
+<meta name="description" content="校园流浪猫图鉴：每只猫的照片、性格与出没地点。">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <h1>校园猫咪档案</h1>
+    <p class="intro">
+      给校园里的每一只猫登记造册。记录它们的照片、花色、性格和常常出没的角落，
+      也记录谁被领养走了、谁很久没出现了、谁已经去了喵星。
+    </p>
+    <div class="stats" id="stats"></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="controls">
+    <div class="search-row">
+      <input id="search" type="search" autocomplete="off"
+             placeholder="搜名字、花色、地点、性格…  比如「橘」「湖边」「亲人」">
+    </div>
+    <div class="filter-row">
+      <div class="chips" id="statusChips"></div>
+      <select class="spot-select" id="spotSelect"></select>
+    </div>
+    <p class="result-count" id="resultCount"></p>
+  </section>
+
+  <section class="grid" id="grid"></section>
+
+  <p class="empty" id="empty" hidden>
+    没有找到匹配的猫咪。<br><strong>换个词，或者清掉筛选条件试试。</strong>
+  </p>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    本页为纯静态展示，不接受在线投稿。若你拍到了档案里没有的猫，欢迎联系猫协补充。
+  </div>
+</footer>
+
+<div class="modal" id="modal" hidden>
+  <div class="modal-panel" id="modalPanel" role="dialog" aria-modal="true"></div>
+</div>
+
+<script src="cats.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
